@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6B2E9016A3CE6E00EE391B /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B6B2E8E16A3CE6300EE391B /* QTKit.framework */; };
+		0B6FAE21A9CD4BE7AACB85E6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 318F70AB53044667A1A1AF18 /* libPods.a */; };
+		0BC9EA8516A3526A00428C6D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC9EA8416A3526A00428C6D /* Cocoa.framework */; };
+		0BC9EA8F16A3526A00428C6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BC9EA8D16A3526A00428C6D /* InfoPlist.strings */; };
+		0BC9EA9116A3526A00428C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9EA9016A3526A00428C6D /* main.m */; };
+		0BC9EA9516A3526A00428C6D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0BC9EA9316A3526A00428C6D /* Credits.rtf */; };
+		0BC9EA9816A3526A00428C6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9EA9716A3526A00428C6D /* AppDelegate.m */; };
+		0BC9EA9B16A3526A00428C6D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BC9EA9916A3526A00428C6D /* MainMenu.xib */; };
+		0BC9EAC716A36ADA00428C6D /* NodeSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9EAC616A36ADA00428C6D /* NodeSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B6B2E8E16A3CE6300EE391B /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		0BC9EA8016A3526A00428C6D /* livestream-osx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "livestream-osx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC9EA8416A3526A00428C6D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0BC9EA8716A3526A00428C6D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0BC9EA8816A3526A00428C6D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0BC9EA8916A3526A00428C6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BC9EA8C16A3526A00428C6D /* livestream-osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "livestream-osx-Info.plist"; sourceTree = "<group>"; };
+		0BC9EA8E16A3526A00428C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BC9EA9016A3526A00428C6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BC9EA9216A3526A00428C6D /* livestream-osx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "livestream-osx-Prefix.pch"; sourceTree = "<group>"; };
+		0BC9EA9416A3526A00428C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0BC9EA9616A3526A00428C6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BC9EA9716A3526A00428C6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BC9EA9A16A3526A00428C6D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0BC9EAC516A36ADA00428C6D /* NodeSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NodeSocket.h; sourceTree = "<group>"; };
+		0BC9EAC616A36ADA00428C6D /* NodeSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeSocket.m; sourceTree = "<group>"; };
+		318F70AB53044667A1A1AF18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA6240288884CDB85A500CC /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BC9EA7D16A3526A00428C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC9EA8516A3526A00428C6D /* Cocoa.framework in Frameworks */,
+				0B6FAE21A9CD4BE7AACB85E6 /* libPods.a in Frameworks */,
+				0B6B2E9016A3CE6E00EE391B /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BC9EA7516A3526A00428C6D = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA8A16A3526A00428C6D /* livestream-osx */,
+				0BC9EA8316A3526A00428C6D /* Frameworks */,
+				0BC9EA8116A3526A00428C6D /* Products */,
+				DDA6240288884CDB85A500CC /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0BC9EA8116A3526A00428C6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA8016A3526A00428C6D /* livestream-osx.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BC9EA8316A3526A00428C6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B6B2E8E16A3CE6300EE391B /* QTKit.framework */,
+				0BC9EA8416A3526A00428C6D /* Cocoa.framework */,
+				0BC9EA8616A3526A00428C6D /* Other Frameworks */,
+				318F70AB53044667A1A1AF18 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BC9EA8616A3526A00428C6D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA8716A3526A00428C6D /* AppKit.framework */,
+				0BC9EA8816A3526A00428C6D /* CoreData.framework */,
+				0BC9EA8916A3526A00428C6D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0BC9EA8A16A3526A00428C6D /* livestream-osx */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EAB116A3587300428C6D /* Classes */,
+				0BC9EAAF16A3586400428C6D /* Resources */,
+				0BC9EA8B16A3526A00428C6D /* Supporting Files */,
+			);
+			path = "livestream-osx";
+			sourceTree = "<group>";
+		};
+		0BC9EA8B16A3526A00428C6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA8C16A3526A00428C6D /* livestream-osx-Info.plist */,
+				0BC9EA8D16A3526A00428C6D /* InfoPlist.strings */,
+				0BC9EA9016A3526A00428C6D /* main.m */,
+				0BC9EA9216A3526A00428C6D /* livestream-osx-Prefix.pch */,
+				0BC9EA9316A3526A00428C6D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BC9EAAF16A3586400428C6D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA9916A3526A00428C6D /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0BC9EAB116A3587300428C6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EA9616A3526A00428C6D /* AppDelegate.h */,
+				0BC9EA9716A3526A00428C6D /* AppDelegate.m */,
+				0BC9EAC416A36AC800428C6D /* Service */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		0BC9EAC416A36AC800428C6D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9EAC516A36ADA00428C6D /* NodeSocket.h */,
+				0BC9EAC616A36ADA00428C6D /* NodeSocket.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC9EA7F16A3526A00428C6D /* livestream-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BC9EA9E16A3526A00428C6D /* Build configuration list for PBXNativeTarget "livestream-osx" */;
+			buildPhases = (
+				0BC9EA7C16A3526A00428C6D /* Sources */,
+				0BC9EA7D16A3526A00428C6D /* Frameworks */,
+				0BC9EA7E16A3526A00428C6D /* Resources */,
+				AAA2E53A74A847479C35844D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "livestream-osx";
+			productName = "livestream-osx";
+			productReference = 0BC9EA8016A3526A00428C6D /* livestream-osx.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BC9EA7716A3526A00428C6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Diego Acosta";
+			};
+			buildConfigurationList = 0BC9EA7A16A3526A00428C6D /* Build configuration list for PBXProject "livestream-osx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BC9EA7516A3526A00428C6D;
+			productRefGroup = 0BC9EA8116A3526A00428C6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC9EA7F16A3526A00428C6D /* livestream-osx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BC9EA7E16A3526A00428C6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC9EA8F16A3526A00428C6D /* InfoPlist.strings in Resources */,
+				0BC9EA9516A3526A00428C6D /* Credits.rtf in Resources */,
+				0BC9EA9B16A3526A00428C6D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AAA2E53A74A847479C35844D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BC9EA7C16A3526A00428C6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC9EA9116A3526A00428C6D /* main.m in Sources */,
+				0BC9EA9816A3526A00428C6D /* AppDelegate.m in Sources */,
+				0BC9EAC716A36ADA00428C6D /* NodeSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BC9EA8D16A3526A00428C6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC9EA8E16A3526A00428C6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BC9EA9316A3526A00428C6D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC9EA9416A3526A00428C6D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0BC9EA9916A3526A00428C6D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BC9EA9A16A3526A00428C6D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BC9EA9C16A3526A00428C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0BC9EA9D16A3526A00428C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0BC9EA9F16A3526A00428C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA6240288884CDB85A500CC /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "livestream-osx/livestream-osx-Prefix.pch";
+				INFOPLIST_FILE = "livestream-osx/livestream-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BC9EAA016A3526A00428C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA6240288884CDB85A500CC /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "livestream-osx/livestream-osx-Prefix.pch";
+				INFOPLIST_FILE = "livestream-osx/livestream-osx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BC9EA7A16A3526A00428C6D /* Build configuration list for PBXProject "livestream-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC9EA9C16A3526A00428C6D /* Debug */,
+				0BC9EA9D16A3526A00428C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BC9EA9E16A3526A00428C6D /* Build configuration list for PBXNativeTarget "livestream-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BC9EA9F16A3526A00428C6D /* Debug */,
+				0BC9EAA016A3526A00428C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BC9EA7716A3526A00428C6D /* Project object */;
+}

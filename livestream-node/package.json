@@ -1,0 +1,8 @@
+{
+	"name": "livestream-node",
+	"version": "0.0.1",
+	"author": "Diego Acosta <diegonake@gmail.com>",
+	"dependencies": {
+		"ws": "0.4.25"
+	}
+}
