@@ -32,7 +32,5 @@
 	<string>NSApplication</string>
 	<key>LSUIElement</key>
 	<true/>
-	<key>LSUIPresentationMode</key>
-	<integer>1</integer>
 </dict>
 </plist>

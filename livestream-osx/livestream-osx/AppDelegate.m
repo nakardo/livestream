@@ -35,7 +35,7 @@ static int const kMainMenuRegisterItemTag = 101;
 
 - (void)performMovieAction:(SocketAction)anAction withStreamURL:(NSString *)url {
     if (anAction == SocketActionPlayPause) {
-        if (self.movie.rate == 0) {
+        // if (self.movie.rate == 0) {
             NSError *error = nil;
             NSDictionary *attrs = [NSDictionary dictionaryWithObjectsAndKeys:
                                    [NSURL URLWithString:url], QTMovieURLAttribute,
@@ -48,7 +48,7 @@ static int const kMainMenuRegisterItemTag = 101;
             
             [self.window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
             [self.window makeKeyAndOrderFront:nil];
-        }
+        // }
     } else if (anAction == SocketActionStop) {
         [self.movie stop];
     } else if (anAction == SocketActionClose) {
