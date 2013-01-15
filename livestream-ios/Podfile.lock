@@ -1,4 +1,6 @@
 
+COCOAPODS: 0.16.0
+
 PODS: 
 - AFKissXMLRequestOperation (0.0.1): 
   - AFNetworking
@@ -7,12 +9,9 @@ PODS:
 - KissXML (5.0)
 
 SPEC CHECKSUMS: 
-  AFKissXMLRequestOperation: 3504a91dde7554a587fd73d369c9954aeb8f2ecb
-  KissXML: 8dfe0fb6d4e987fec63656ff07d5e697f49976f8
   AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  KissXML: 8dfe0fb6d4e987fec63656ff07d5e697f49976f8
+  AFKissXMLRequestOperation: 3504a91dde7554a587fd73d369c9954aeb8f2ecb
 
 DEPENDENCIES: 
 - AFKissXMLRequestOperation (~> 0.0.1)
-- AFNetworking (~> 1.1.0)
-
-COCOAPODS: 0.16.0
