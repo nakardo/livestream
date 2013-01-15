@@ -13,7 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    self.serverURL = @"ws://localhost:8080";
+    self.serverURL = @"ws://192.168.0.153:8080";
     self.secret = @"mogambo";
     return YES;
 }

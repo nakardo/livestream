@@ -15,13 +15,22 @@
         self.selectionStyle = UITableViewCellSelectionStyleNone;
     }
     
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(textfieldDidChangeValue)
+                                                 name:UITextFieldTextDidChangeNotification
+                                               object:self.valueField];
+
+    
     return self;    
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [self.valueField resignFirstResponder];
-    [self.delegate textField:textField didChangeValue:textField.text];
     return YES;
+}
+
+- (void)textfieldDidChangeValue {
+    [self.delegate textField:self.valueField didChangeValue:self.valueField.text];
 }
 
 @end
