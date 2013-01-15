@@ -45,8 +45,8 @@ static int const kMainMenuRegisterItemTag = 101;
                                    nil];
             self.movie = [[QTMovie alloc] initWithAttributes:attrs error:&error];
             [self.movie autoplay];
-            
-            [self.window setCollectionBehavior:NSWindowCollectionBehaviorFullScreenPrimary];
+        
+            if ([self.window isZoomed] == NO)[self.window zoom:nil];
             [self.window makeKeyAndOrderFront:nil];
         // }
     } else if (anAction == SocketActionStop) {
